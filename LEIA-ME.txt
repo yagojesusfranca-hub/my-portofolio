@@ -1,0 +1,23 @@
+COMO COLOCAR SEUS VÍDEOS E IMAGENS
+
+1. Extraia o ZIP inteiro para uma pasta.
+2. Mantenha index.html e a pasta assets juntos.
+3. Coloque os arquivos dentro de assets e use estes nomes (ou altere os nomes no index.html):
+   - video-01.mp4
+   - video-02.mp4
+   - imagem-01.jpg
+   - imagem-02.jpg
+4. Os nomes e extensões precisam ser EXATAMENTE iguais. Exemplo: .png é diferente de .jpg e .MP4 pode não ser igual a .mp4 em algumas hospedagens.
+5. Abra index.html no navegador. Se o arquivo não for encontrado, o cartão mostra uma mensagem de ajuda.
+
+IMPORTANTE SOBRE VÍDEOS AVI
+Alguns navegadores não reproduzem .avi diretamente no site. Converta o vídeo para MP4 (H.264) e salve como video-01.mp4 ou video-02.mp4. Não basta só renomear .avi para .mp4; é necessário converter o formato.
+
+PARA USAR SEUS NOMES ORIGINAIS
+Abra index.html no Bloco de Notas e procure por assets/video-01.mp4, assets/imagem-01.jpg etc. Troque o nome pelo nome exato do arquivo que colocou dentro de assets. Não remova a pasta assets.
+
+PARA MAIS PROJETOS
+Copie um bloco <article class="project"> inteiro no index.html e cole dentro de <div class="projects">. Ajuste o caminho do arquivo, título e descrição.
+
+POR QUE NÃO APARECERAM ANTES?
+A versão anterior usa nomes de exemplo fixos (video-01.mp4, imagem-01.jpg etc.). Se seus arquivos tinham outros nomes, estavam em outra pasta ou eram AVI, o navegador não conseguia carregá-los. O ZIP original também não continha os vídeos/imagens reais, então é preciso copiá-los para a pasta assets.
